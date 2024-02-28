@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zvit</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                border: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: monospace;
+            }
+            h1 {
+                text-transform: uppercase;
+            }
+            .header {
+                display: flex;
+                flex-direction: row;
+            }
+            .header-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 auto;
+                text-align: center;
+            }
+            .header img {
+                width: 5%;
+                margin-right: 40px;
+            }
+            #labs {
+                margin: 0 auto;
+                width: 95%;
+                margin-top: 20px;
+            }
+            #labs-list {
+                list-style: none;
+                display: flex; 
+                flex-direction: row;
+            }
+            .list-item {
+                display: flex;
+                border: 1px solid black;
+                border-radius: 5px;
+                margin-right: 10px;
+                height: 50px;
+                padding: 0 15px;
+                align-items: center;                
+            }
+            .list-item:hover {
+                background: rgb(255, 196, 196);
+            }
+            .list-item:last-child {
+                margin: 0;
+            }
+            .list-item_active {
+                background: rgb(184, 255, 155);
+            }
+            .list-item_active:hover {
+                background: rgb(86, 227, 30);
+            }
+            .list-link {
+                text-decoration: none;
+                color: #000;
+                font-size: 15px;
+            }
+            .list-link:hover {
+                text-decoration: underline;
+            }
+            /*=====================*/ 
+            .content {
+                display: flex;
+                width: 95%;
+                margin: 0 auto;
+                margin-top: 20px;
+                justify-content: space-between;
+                position: relative;
+            }
+            .buttons {
+                flex: 0 1 25%;
+            }
+            .buttons-list {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .buttons_list-item {
+                display: flex;
+                border: 1px solid black;
+                border-radius: 20px;
+                height: 50px;
+                padding: 0 15px;
+                align-items: center; 
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            .buttons_list-item:hover {
+                background-color: aquamarine;
+            }
+            .buttons_list-item_active {
+                background-color: aquamarine;
+            }
+            .buttons_list-item:last-child {
+                margin: 0;
+            }
+            .buttons_list-link {
+                font-size: 15px;
+
+            }
+            .field {
+                border: 1px solid black;
+                flex: 0 1 73%;
+                min-height: 100%;
+                padding: 5px;
+                font-size: 14px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-text">
+                <h1>
+                    Звіти з лабораторних робіт<br/>
+                    з дисципліни "Web-технології"
+                </h1>
+                <h2>Студент групи ІС-11 Бондарчук Олександр</h2>
+            </div>
+            <img class="foto" src="../images/photo.jpg" alt="">
+        </div>
+        <div id="labs">
+            <ul id="labs-list">
+                <ul id="labs-list">
+                    <li class="list-item list-item_active"><a href="" class="list-link">Лабораторна робота №1</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №2</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №3</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №4</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №5</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №6</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №7</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №8</a></li>
+                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №9</a></li> 
+                </ul>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="buttons">
+                <ul class="buttons-list">
+                    <li class="buttons_list-item"><a href="zvit.html" class="list-link buttons_list-link">Опис предметного середовища</a></li>
+                    <li class="buttons_list-item"><a href="2.html" class="list-link buttons_list-link">Тема, мета, місце розташування Л.Р. №1</a></li>
+                    <li class="buttons_list-item buttons_list-item_active"><a href="3.html" class="list-link buttons_list-link">Структура документа</a></li>
+                    <li class="buttons_list-item"><a href="4.html" class="list-link buttons_list-link">HTML-код ТАБЛИЦЬ</a></li>
+                    <li class="buttons_list-item"><a href="5.html" class="list-link buttons_list-link">HTML-код ФОРМИ</a></li>
+                    <li class="buttons_list-item"><a href="6.html" class="list-link buttons_list-link">HTML-код ЗОБРАЖЕННЯ</a></li>
+                    <li class="buttons_list-item"><a href="7.html" class="list-link buttons_list-link">Висновки</a></li>
+                </ul>
+            </div>
+            <div class="field">
+                <p class="field_text">
+                    СТРУКТУРА ДОКУМЕНТА <br>
+                    1 - Навігація <br>
+                    2 - Лого <br>
+                    3 - Таблиця з абонементами <br>
+                    4 - Таблиця з споривним харчуванням <br>
+                    5 - Форма зворотнього звязку <br>
+                </p>
+
+            </div>
+        </div>
+    </body>
+</html>

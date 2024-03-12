@@ -20,26 +20,11 @@
 
         h1 {
             text-transform: uppercase;
-            /* text-align: center; */
-        }
-
-        .header {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .header-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            flex: 1 1 auto;
             text-align: center;
         }
 
-        .header img {
-            width: 5%;
-            margin-right: 40px;
+        h2 {
+            text-align: center;
         }
 
         #labs {
@@ -138,13 +123,28 @@
             font-size: 15px;
 
         }
-
         .field {
             border: 1px solid black;
             flex: 0 1 73%;
             min-height: 100%;
             padding: 5px;
             font-size: 14px;
+        }
+        .header {
+            display: flex;
+            flex-direction: row;
+        }
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1 1 auto;
+            text-align: center;
+        }
+        .header img {
+            width: 5%;
+            margin-right: 40px;
         }
     </style>
 </head>
@@ -162,8 +162,9 @@
     </div>
     <div id="labs">
         <ul id="labs-list">
-            <li class="list-item list-item_active"><a href="../lab1/1.html" class="list-link">Лабораторна робота №1</a></li>
-            <li class="list-item"><a href="../lab2/1.html" class="list-link">Лабораторна робота №2</a></li>
+            <li class="list-item"><a href="../lab1/1.html" class="list-link">Лабораторна робота №1</a></li>
+            <li class="list-item list-item_active"><a href="../lab2/1.html" class="list-link">Лабораторна робота №2</a>
+            </li>
             <li class="list-item"><a href="" class="list-link">Лабораторна робота №3</a></li>
             <li class="list-item"><a href="" class="list-link">Лабораторна робота №4</a></li>
             <li class="list-item"><a href="" class="list-link">Лабораторна робота №5</a></li>
@@ -176,22 +177,27 @@
     <div class="content">
         <div class="buttons">
             <ul class="buttons-list">
-                <li class="buttons_list-item buttons_list-item_active"><a href="index.html"
-                        class="list-link buttons_list-link">Опис предметного середовища</a></li>
-                <li class="buttons_list-item"><a href="2.html" class="list-link buttons_list-link">Тема, мета, місце
-                        розташування Л.Р. №1</a></li>
-                <li class="buttons_list-item"><a href="3.html" class="list-link buttons_list-link">Структура
-                        документа</a></li>
-                <li class="buttons_list-item"><a href="4.html" class="list-link buttons_list-link">HTML-код ТАБЛИЦЬ</a>
+                <li class="buttons_list-item buttons_list-item_active"><a href="1.html"
+                        class="list-link buttons_list-link">Постановка задачі</a></li>
+                <li class="buttons_list-item"><a href="2.html" class="list-link buttons_list-link">Списки</a></li>
+                <li class="buttons_list-item"><a href="3.html" class="list-link buttons_list-link">Ідентифікатори</a>
                 </li>
-                <li class="buttons_list-item"><a href="5.html" class="list-link buttons_list-link">HTML-код ФОРМИ</a>
+                <li class="buttons_list-item"><a href="4.html" class="list-link buttons_list-link">Відступи</a></li>
+                <li class="buttons_list-item"><a href="5.html" class="list-link buttons_list-link">Плаваючі елементи</a>
                 </li>
-                <li class="buttons_list-item"><a href="6.html" class="list-link buttons_list-link">HTML-код
-                        ЗОБРАЖЕННЯ</a></li>
-                <li class="buttons_list-item"><a href="7.html" class="list-link buttons_list-link">Висновки</a></li>
+                <li class="buttons_list-item"><a href="6.html" class="list-link buttons_list-link">Селектори</a></li>
+                <li class="buttons_list-item"><a href="7.html" class="list-link buttons_list-link">Селектори класу і
+                        тегу</a></li>
+                <li class="buttons_list-item"><a href="8.html" class="list-link buttons_list-link">Інші селектори</a>
+                </li>
+                <li class="buttons_list-item"><a href="9.html" class="list-link buttons_list-link">Групування
+                        селекторів</a></li>
             </ul>
         </div>
         <div class="field">
+            <p class="field_text">
+                <b>Тема:</b> Фітнес клуб
+            </p>
             <p class="field_text">
                 Сьогодні одним з найголовніших чинників благополуччя - це здоров'я. Тому таким важливим для людей були і
                 будуть заняття спортом. Вони покращують імунітет. Це, в свою чергу, захищає організм від грипу та інших
@@ -200,6 +206,17 @@
                 тіло. Доведено, що спорт – ефективне знеболююче. Перш за все, тренування допомагають м’язам розслабитися
                 та зміцнити суглоби, що може знімати спазми різного характеру. Окрім цього, фізичні навантаження
                 сприяють виробці природного гормону щастя, що ефективно бореться з болем різного характеру.
+            </p>
+            <p class="field_text">
+                <b>Мета сайту:</b> розробка зручного сайту фітнес-клубу, де з легкістю можна оформити абонемент,
+                замовити спортивне харчування тощо. Таким чином можливо набагато полегшити процес реєстрації та купівлі
+                продуктів у фітнес-клубі і зробити його швидким та простішим для клієнтів.
+            </p>
+            <p class="field_text">
+                <b>Мета лабораторної:</b> придбати практичні навички роботи з селекторами, ідентифікаторами,
+                списками, різноманітними властивостями кольору і фону, зовнішними
+                та внутрішними відступами, плаваючими елементами, оформленням
+                текстових елементів <br>
             </p>
         </div>
     </div>

@@ -1,4 +1,4 @@
-..<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -17,22 +17,10 @@
             }
             h1 {
                 text-transform: uppercase;
-            }
-            .header {
-                display: flex;
-                flex-direction: row;
-            }
-            .header-text {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                flex: 1 1 auto;
                 text-align: center;
             }
-            .header img {
-                width: 5%;
-                margin-right: 40px;
+            h2 {
+                text-align: center;
             }
             #labs {
                 margin: 0 auto;
@@ -73,6 +61,7 @@
             .list-link:hover {
                 text-decoration: underline;
             }
+            /*=====================*/ 
             .content {
                 display: flex;
                 width: 95%;
@@ -111,7 +100,7 @@
             }
             .buttons_list-link {
                 font-size: 15px;
-
+                
             }
             .field {
                 border: 1px solid black;
@@ -120,14 +109,33 @@
                 padding: 5px;
                 font-size: 14px;
             }
-
+            .field img:first-child {
+                width: 100%;
+                display: inline-block;
+            }
+            .header {
+            display: flex;
+            flex-direction: row;
+        }
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1 1 auto;
+            text-align: center;
+        }
+        .header img {
+            width: 5%;
+            margin-right: 40px;
+        }
         </style>
     </head>
     <body>
         <div class="header">
             <div class="header-text">
                 <h1>
-                    Звіти з лабораторних робіт<br/>
+                    Звіти з лабораторних робіт<br />
                     з дисципліни "Web-технології"
                 </h1>
                 <h2>Студент групи ІС-11 Бондарчук Олександр</h2>
@@ -136,36 +144,34 @@
         </div>
         <div id="labs">
             <ul id="labs-list">
-                <ul id="labs-list">
-                    <li class="list-item list-item_active"><a href="../lab1/1.html" class="list-link">Лабораторна робота №1</a></li>
-                    <li class="list-item"><a href="../lab2/1.html" class="list-link">Лабораторна робота №2</a></li>
-                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №3</a></li>
-                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №4</a></li>
-                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №5</a></li>
-                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №6</a></li>
-                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №7</a></li>
-                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №8</a></li>
-                    <li class="list-item"><a href="" class="list-link">Лабораторна робота №9</a></li> 
-                </ul>
+                <li class="list-item"><a href="../lab1/1.html" class="list-link">Лабораторна робота №1</a></li>
+                <li class="list-item list-item_active"><a href="../lab2/1.html" class="list-link">Лабораторна робота №2</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №3</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №4</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №5</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №6</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №7</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №8</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №9</a></li> 
             </ul>
         </div>
         <div class="content">
             <div class="buttons">
                 <ul class="buttons-list">
-                    <li class="buttons_list-item"><a href="1.html" class="list-link buttons_list-link">Опис предметного середовища</a></li>
-                    <li class="buttons_list-item"><a href="2.html" class="list-link buttons_list-link">Тема, мета, місце розташування Л.Р. №1</a></li>
-                    <li class="buttons_list-item"><a href="3.html" class="list-link buttons_list-link">Структура документа</a></li>
-                    <li class="buttons_list-item"><a href="4.html" class="list-link buttons_list-link">HTML-код ТАБЛИЦЬ</a></li>
-                    <li class="buttons_list-item"><a href="5.html" class="list-link buttons_list-link">HTML-код ФОРМИ</a></li>
-                    <li class="buttons_list-item buttons_list-item_active"><a href="6.html" class="list-link buttons_list-link">HTML-код ЗОБРАЖЕННЯ</a></li>
-                    <li class="buttons_list-item"><a href="7.html" class="list-link buttons_list-link">Висновки</a></li>
+                    <li class="buttons_list-item"><a href="1.html" class="list-link buttons_list-link">Постановка задачі</a></li>
+                    <li class="buttons_list-item"><a href="2.html" class="list-link buttons_list-link">Списки</a></li>
+                    <li class="buttons_list-item"><a href="3.html" class="list-link buttons_list-link">Ідентифікатори</a></li>
+                    <li class="buttons_list-item"><a href="4.html" class="list-link buttons_list-link">Відступи</a></li>
+                    <li class="buttons_list-item"><a href="5.html" class="list-link buttons_list-link">Плаваючі елементи</a></li>
+                    <li class="buttons_list-item"><a href="6.html" class="list-link buttons_list-link">Селектори</a></li>
+                    <li class="buttons_list-item"><a href="7.html" class="list-link buttons_list-link">Селектори класу і тегу</a></li>
+                    <li class="buttons_list-item buttons_list-item_active"><a href="8.html" class="list-link buttons_list-link">Інші селектори</a></li>
+                    <li class="buttons_list-item"><a href="9.html" class="list-link buttons_list-link">Групування селекторів</a></li>
                 </ul>
             </div>
             <div class="field">
-                <p class="field_text">
-                    &lt;img src="https://media.istockphoto.com/vectors/strong-arm-icon-fitness-bodybuilding-concept-vector-id810099692?k=6&m=810099692&s=612x612&w=0&h=lOUsUMmnLo4QwWs6QYQhDkBxZwgoPWBM12wpynPh7f8=" alt="logo"/> <br>
-                    &lt;img src="https://m.media-amazon.com/images/I/71FXHwJxBoL._AC_SL1500_.jpg" alt="gym"/>
-                </p>
+                <img src="/images/other_selectors.png" alt="">
+                <img src="/images/selector4.png" alt="">
             </div>
         </div>
     </body>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+        }
+        #a {
+            width:999px;
+            height:471px;
+        }
+        #b {
+            width:1000px; 
+            height:50px;
+            background-color: rgb(126, 126, 255);
+            text-align: right;
+            padding-top: 50px;
+        }
+        #c {
+            margin-right: 20px;
+        }
+        #c input {
+            float: left;margin-left: 20px;
+        }
+        #d {
+            width:1000px; 
+            height:300px
+        }
+        #e {
+            display:inline-block; 
+            width:240px;
+            height:300px;
+            background-color: rgb(255, 141, 141);
+        }
+        #f {
+            display:inline-block;
+            width:240px;
+            height:300px;
+            background-color: rgb(255, 227, 176); 
+            margin-left: 10px;
+        }
+        #g {
+            display:inline-block;
+            width:240px;
+            height:300px;
+            background-color: rgb(255, 255, 117); 
+            margin-left: 10px;
+        }
+        #h {
+            display:inline-block;
+            width:238px;
+            height:300px;
+            background-color: rgb(111, 255, 111); 
+            margin-left: 10px;
+        }
+        #i {
+            padding-top:40px;
+            width:1000px; 
+            height:30px; 
+            text-align: start;
+            background-color: rgb(119, 119, 253);
+        }
+    </style>
+</head>
+<body>
+    <div id="a">
+        <div id="b">
+            <div id="c">
+                <input type="text">
+                 Заголовок
+            </div>
+        </div>
+        <div id="d">
+              <div id="e">1</div>
+              <div id="f">2</div>
+              <div id="g">3</div>
+              <div id="h">4</div>
+        </div>
+        <div id="i">Футер</div>
+    </div>
+</body>
+</html>

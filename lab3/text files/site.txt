@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,500" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&amp;family=Open+Sans&amp;family=Ubuntu:wght@400;700&amp;display=swap"
+        rel="stylesheet">
+    <title>True Gym</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__navigation">
+                        <div class="header__logo">
+                            <img src="./biceps.jpg"
+                                alt="logo" />
+                        </div>
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a href="" class="header__list-link header__list-link-active">Головна</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="" class="header__list-link">Абонементи</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="" class="header__list-link">Харчування</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="" class="header__list-link">Одяг</a>
+                            </li>
+                        </ul>
+                        <a href="" class="header__btn">Замовити послугу</a>
+                    </div>
+                    <div class="header__content">
+                        <div class="header__content-text">
+                            <h1 class="header__content-title">
+                                Здорове тіло - здоровий дух
+                            </h1>
+                            <p class="header__content-paragraph">
+                                Перебудуй своє тіло разом з нами
+                            </p>
+                        </div>
+                        <div class="header__content-img">
+                            <img src="./fitness.png" alt="gym" style="width: 330px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-part">
+            <div class="content">
+                <div class="container">
+                    <div class="content__inner">
+                        <h2 class="content__header">Абонементи</h2>
+
+                        <div class="cards">
+                            <div class="abonement-card">
+                                <ul class="price">
+                                    <li class="header">Базовий</li>
+                                    <li class="grey">580 грн / місяць</li>
+                                    <li>Час дії: 08:00 - 13:00</li>
+                                    <li>Не більше 16 відвідувань / місяць</li>
+                                    <li>3 пепепустки в басейн</li>
+                                    <li>Повний доступ до усіх тренажерних кімнат</li>
+                                    <li class="grey"><a href="#" class="button">Замовити</a></li>
+                                </ul>
+                            </div>
+                            <div class="abonement-card">
+                                <ul class="price">
+                                    <li class="header">Standart</li>
+                                    <li class="grey">660 грн / місяць</li>
+                                    <li>Час дії: необмежено</li>
+                                    <li>Не більше 16 відвідувань / місяць</li>
+                                    <li>6 пепепусток в басейн</li>
+                                    <li>Повний доступ до усіх тренажерних кімнат</li>
+                                    <li class="grey"><a href="#" class="button">Замовити</a></li>
+                                </ul>
+                            </div>
+                            <div class="abonement-card">
+                                <ul class="price">
+                                    <li class="header" style="background-color:#dc780b">Pro</li>
+                                    <li class="grey">1100 грн / місяць</li>
+                                    <li>Час дії: необмежено</li>
+                                    <li>Кількість відвідувань: необмежено</li>
+                                    <li>Повний доступ до басейну</li>
+                                    <li>Повний доступ до усіх тренажерних кімнат</li>
+                                    <li class="grey"><a href="#" class="button">Замовити</a></li>
+                                </ul>
+                            </div>
+                            <div class="abonement-card">
+                                <ul class="price">
+                                    <li class="header">Premium</li>
+                                    <li class="grey">720 грн / місяць</li>
+                                    <li>Час дії: необмежено</li>
+                                    <li>Кількість відвідувань: необмежено</li>
+                                    <li>12 пепепусток в басейн</li>
+                                    <li>Повний доступ до усіх тренажерних кімнат</li>
+                                    <li class="grey"><a href="#" class="button">Замовити</a></li>
+                                </ul>
+                            </div>
+                            <div class="abonement-card">
+                                <ul class="price">
+                                    <li class="header">Premium+</li>
+                                    <li class="grey">870 грн / місяць</li>
+                                    <li>Час дії: необмежено</li>
+                                    <li>Кількість відвідувань: необмежено</li>
+                                    <li>25 пепепусток в басейн</li>
+                                    <li>Повний доступ до усіх тренажерних кімнат</li>
+                                    <li class="grey"><a href="#" class="button">Замовити</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <h2 class="content__header">Харчування</h2> -->
+
+                        <!-- <h2 class="content__header">Одяг</h2> -->
+                    </div>
+                </div>
+            </div>
+            <div class="feedback">
+                <div class="container">
+                    <div class="feedback__inner">
+                        <h2 class="feedback__header">
+                            Форма зворотнього зв'язку
+                        </h2>
+                        <form action="" id="feedback__form">
+                            <label for="firstname">Ім'я</label>
+                            <input type="text" placeholder="Петро" name="firstname" required />
+                            <label for="lastname">Прізвище</label>
+                            <input type="text" placeholder="Петрович" name="lastname" required />
+                            <label for="phone">Телефон</label>
+                            <input type="tel" placeholder="+380991235678" name="phone" required />
+                            <button class="feedback__btn" type="submit">
+                                Зателефонуйте мені
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <p class="footer__text">Copyright © 2024 True Gym, All Rights Reserved.</p>
+                    <a id="solo-link" href="subject_area.html" target="_blank">Посилання на сторінку з описом предметної
+                        галузі</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+css
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 15px;
+}
+
+/*=========HEADER===========*/
+
+.wrapper {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    padding: 30px 0 120px 0;
+    /* min-height: 100vh; */
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__inner {
+    min-width: 100%;
+    position: relative;
+}
+.header__navigation {
+    display: flex;
+    margin-bottom: 100px;
+}
+.header__logo {
+    margin-right: 35px;
+}
+.header__logo img {
+    height: 46px;
+}
+.header__list {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+.header__list-item {
+    margin: 0 0 0 40px;
+}
+.header__list-item:first-child {
+    margin: 0;
+}
+.header__list-link {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #736d67;
+}
+.header__list-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+.header__list-link-active {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #dc780b;
+}
+.header__list-link-active:hover {
+    color: #e74809;
+}
+.header__btn {
+    color: #ffffff;
+    background-color: #dc780b;
+    padding: 0 30px;
+    line-height: 49px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.header__btn:hover {
+    box-shadow: 2px 2px 0 #736d6796;
+    background-color: #e74809;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__content-text {
+    flex: 1 0 50%;
+}
+.header__content-img {
+    flex: 1 0 50%;
+    display: flex;
+    justify-content: center;
+}
+.header__content-img img {
+    width: 500px;
+}
+.header__content-title {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.header__content-paragraph {
+    font-size: 22px;
+}
+
+/*=========MAIN PART===========*/
+.main-part {
+    flex: 1 1 auto;
+}
+
+.content {
+    padding: 50px 0 30px 0;
+    background-color: rgb(255, 245, 225);
+}
+
+.content__header {
+    margin-bottom: 20px;
+    color: #3e3e3e;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.abonement-card {
+    width: 19%;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #dc780b;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/*========feedback=======*/
+
+.feedback {
+    padding: 80px 0;
+}
+/* .feedback__inner {
+} */
+.feedback__header {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+#feedback__form {
+    max-width: 340px;
+    margin: 0 auto;
+}
+#feedback__form label {
+    display: block;
+    margin: 0 0 5px 0;
+}
+#feedback__form input {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #9f9ea2;
+    border-radius: 3px;
+    border: 1px solid #9f9ea2;
+    display: block;
+    height: 46px;
+    margin: 0 0 15px 0;
+    padding-left: 24px;
+    width: 100%;
+}
+
+.feedback__btn {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #ffd429;
+    color: #2e2a1b;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 900;
+    width: 100%;
+}
+
+/*========FOOTER=============*/
+
+.footer {
+    height: 100px;
+    background-color: rgba(255, 238, 105, 0.485);
+    display: flex;
+}
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+.footer__text {
+    font-size: 18px;
+    color: #3b3834;
+    margin-bottom: 10px;
+}
+
+#solo-link {
+    display: block;
+    font-size: 16px;
+    color: #736d67;
+}
+#solo-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/*=========================*/

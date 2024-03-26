@@ -17,10 +17,23 @@
             }
             h1 {
                 text-transform: uppercase;
+                /* text-align: center; */
+            }
+            .header {
+                display: flex;
+                flex-direction: row;
+            }
+            .header-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 auto;
                 text-align: center;
             }
-            h2 {
-                text-align: center;
+            .header img {
+                width: 5%;
+                margin-right: 40px;
             }
             #labs {
                 margin: 0 auto;
@@ -100,7 +113,7 @@
             }
             .buttons_list-link {
                 font-size: 15px;
-                
+
             }
             .field {
                 border: 1px solid black;
@@ -109,29 +122,10 @@
                 padding: 5px;
                 font-size: 14px;
             }
-            .field img:first-child {
+            iframe {
                 width: 100%;
-                display: inline-block;
+                height: 700px;
             }
-            .field img {
-                width: 40%;
-            }
-            .header {
-            display: flex;
-            flex-direction: row;
-        }
-        .header-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            flex: 1 1 auto;
-            text-align: center;
-        }
-        .header img {
-            width: 5%;
-            margin-right: 40px;
-        }
         </style>
     </head>
     <body>
@@ -145,38 +139,40 @@
             </div>
             <img class="foto" src="../images/photo.jpg" alt="">
         </div>
+
         <div id="labs">
             <ul id="labs-list">
                 <li class="list-item"><a href="../lab1/1.html" class="list-link">Лабораторна робота №1</a></li>
-                <li class="list-item list-item_active"><a href="../lab2/1.html" class="list-link">Лабораторна робота №2</a>
+                <li class="list-item"><a href="../lab2/1.html" class="list-link">Лабораторна робота №2</a>
                 </li>
-                <li class="list-item"><a href="../lab3/1.html" class="list-link">Лабораторна робота №3</a></li>
-                <li class="list-item"><a href="../lab4/1.html" class="list-link">Лабораторна робота №4</a></li>
-                <li class="list-item"><a href="../lab5/1.html" class="list-link">Лабораторна робота №5</a></li>
-                <li class="list-item"><a href="../lab6/1.html" class="list-link">Лабораторна робота №6</a></li>
-                <li class="list-item"><a href="../lab7/1.html" class="list-link">Лабораторна робота №7</a></li>
-                <li class="list-item"><a href="../lab8/1.html" class="list-link">Лабораторна робота №8</a></li>
-                <li class="list-item"><a href="../lab9/1.html" class="list-link">Лабораторна робота №9</a></li>
+                <li class="list-item list-item_active"><a href="../lab3/1.html" class="list-link">Лабораторна робота №3</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №4</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №5</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №6</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №7</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №8</a></li>
+                <li class="list-item"><a href="" class="list-link">Лабораторна робота №9</a></li>
             </ul>
         </div>
         <div class="content">
             <div class="buttons">
                 <ul class="buttons-list">
-                    <li class="buttons_list-item"><a href="1.html" class="list-link buttons_list-link">Постановка задачі</a></li>
-                    <li class="buttons_list-item"><a href="2.html" class="list-link buttons_list-link">Списки</a></li>
-                    <li class="buttons_list-item"><a href="3.html" class="list-link buttons_list-link">Ідентифікатори</a></li>
-                    <li class="buttons_list-item"><a href="4.html" class="list-link buttons_list-link">Відступи</a></li>
-                    <li class="buttons_list-item"><a href="5.html" class="list-link buttons_list-link">Плаваючі елементи</a></li>
-                    <li class="buttons_list-item"><a href="6.html" class="list-link buttons_list-link">Селектори</a></li>
-                    <li class="buttons_list-item"><a href="7.html" class="list-link buttons_list-link">Селектори класу і тегу</a></li>
-                    <li class="buttons_list-item"><a href="8.html" class="list-link buttons_list-link">Інші селектори</a></li>
-                    <li class="buttons_list-item buttons_list-item_active"><a href="9.html" class="list-link buttons_list-link">Групування селекторів</a></li>
+                    <li class="buttons_list-item"><a href="1.html" class="list-link buttons_list-link">Тема, мета, місце розташування сайту</a></li>
+                    <li class="buttons_list-item"><a href="2.html" class="list-link buttons_list-link">Завдання 1. Зовнішній вигляд макету, код макету</a></li>
+                    <li class="buttons_list-item"><a href="3.html" class="list-link buttons_list-link">Завдання 2.</a></li>
+                    <li class="buttons_list-item"><a href="4.html" class="list-link buttons_list-link">Фіксована таблична верстка</a></li>
+                    <li class="buttons_list-item"><a href="5.html" class="list-link buttons_list-link">Гумова таблична верстка</a></li>
+                    <li class="buttons_list-item"><a href="6.html" class="list-link buttons_list-link">Фіксована блочна верстка</a></li>
+                    <li class="buttons_list-item"><a href="7.html" class="list-link buttons_list-link">Гумова блочна верстка</a></li>
+                    <li class="buttons_list-item"><a href="8.html" class="list-link buttons_list-link">Завдання 3. FLEXBOX</a></li>
+                    <li class="buttons_list-item"><a href="9.html" class="list-link buttons_list-link">Скріншот сторінки</a></li>
+                    <li class="buttons_list-item buttons_list-item_active"><a href="10.html" class="list-link buttons_list-link">HTML-код</a></li>
+                    <li class="buttons_list-item"><a href="11.html" class="list-link buttons_list-link">CSS-код</a></li>
+                    <li class="buttons_list-item"><a href="12.html" class="list-link buttons_list-link">Висновки</a></li>
                 </ul>
             </div>
             <div class="field">
-                <img src="../images/selectors.png" alt="">
-                <img src="../images/selector1.png" alt="">
-                <img src="../images/selector2.png" alt="">
+               <iframe src="../lab3/text files/task3 html.txt" frameborder="0"></iframe>
             </div>
         </div>
     </body>
